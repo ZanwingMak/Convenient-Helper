@@ -1,0 +1,41 @@
+{
+  "manifest_version":2,
+  "name":"便捷助手",
+  "description":"一个简单的便捷助手",
+  "version":"1.0",
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "browser_action":{
+    "default_icon":{
+      "16":"images/icon16.png",
+      "48":"images/icon48.png",
+      "128":"images/icon128.png"
+    },
+    "default_title":"Convenient Helper",
+    "default_popup":"popup.html"
+  },
+  "background": {
+    "page": "background.html",
+    "persistent": true
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.bilibili.com/*","*://*.acfun.tv/*","*://*.aixifan.com/*"],
+      "js": ["js/init.js"]
+    },
+    {
+      "matches": ["*://*.bilibili.com/video/av*"],
+      "js": ["js/bilibili_cover.js"],
+      "css": ["css/bilibili_cover.css"]
+    },
+    {
+      "matches": ["*://*.acfun.tv/*","*://*.aixifan.com/*"],
+      "js": ["js/acfun_queBle.js"]
+    }
+  ],
+  "options_page": "options.html",
+  "permissions": ["tabs", "contextMenus", "storage"]
+}
