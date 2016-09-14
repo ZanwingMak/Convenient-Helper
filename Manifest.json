@@ -23,7 +23,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["*://*.bilibili.com/*","*://*.acfun.tv/*","*://*.aixifan.com/*"],
+      "matches": ["*://*.bilibili.com/*","*://*.acfun.tv/*","*://*.aixifan.com/*","*://*.acfun.net/*"],
       "js": ["js/init.js"]
     },
     {
@@ -32,7 +32,7 @@
       "css": ["css/bilibili_cover.css"]
     },
     {
-      "matches": ["*://*.acfun.tv/*","*://*.aixifan.com/*"],
+      "matches": ["*://*.acfun.tv/*","*://*.aixifan.com/*","*://*.acfun.net/*"],
       "js": ["js/acfun_queBle.js"]
     }
   ],
