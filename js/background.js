@@ -41,6 +41,12 @@ chrome.runtime.onMessage.addListener(function(message, sender, sendResponse){
     if(message == 'localStorageAcfunQueBLe'){
         sendResponse(localStorage.acfunQueBLe);
     }
+    if(message == 'localStorageBaiduNetDiscUrlReplaceToHttps'){
+        sendResponse(localStorage.baiduNetDiscUrlReplaceToHttps);
+    }
+    if(message == 'localStorageBaiduNetDiscDownloadDirectly'){
+        sendResponse(localStorage.baiduNetDiscDownloadDirectly);
+    }
     if(message == 'init'){
         //初始化
         //B站视频下载右键菜单
@@ -62,6 +68,14 @@ chrome.runtime.onMessage.addListener(function(message, sender, sendResponse){
         //把ACFUN替换成缺B乐
         if(!localStorage.acfunQueBLe){
             localStorage.acfunQueBLe = 'on';
+        }
+        //百度网盘强制跳转到https协议
+        if(!localStorage.baiduNetDiscUrlReplaceToHttps){
+            localStorage.baiduNetDiscUrlReplaceToHttps = 'on';
+        }
+        //百度网盘直接下载，坚决不安装管家
+        if(!localStorage.baiduNetDiscDownloadDirectly){
+            localStorage.baiduNetDiscDownloadDirectly = 'on';
         }
     }
 });
