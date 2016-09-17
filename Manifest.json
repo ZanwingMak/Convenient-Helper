@@ -23,7 +23,14 @@
   },
   "content_scripts": [
     {
-      "matches": ["*://*.bilibili.com/*","*://*.acfun.tv/*","*://*.aixifan.com/*","*://*.acfun.net/*"],
+      "matches": [
+        "*://*.bilibili.com/*",
+        "*://*.acfun.tv/*",
+        "*://*.aixifan.com/*",
+        "*://*.acfun.net/*",
+        "*://pan.baidu.com/*",
+        "*://yun.baidu.com/*"
+      ],
       "js": ["js/init.js"]
     },
     {
@@ -34,6 +41,14 @@
     {
       "matches": ["*://*.acfun.tv/*","*://*.aixifan.com/*","*://*.acfun.net/*"],
       "js": ["js/acfun_queBle.js"]
+    },
+    {
+      "matches": ["*://pan.baidu.com/*","*://yun.baidu.com/*"],
+      "js": ["js/baiduNetDiscDownloadDirectly.js"]
+    },
+    {
+      "matches": ["*://pan.baidu.com/*","*://yun.baidu.com/*"],
+      "js": ["js/baiduNetDiscUrlReplaceToHttps.js"]
     }
   ],
   "options_page": "options.html",
