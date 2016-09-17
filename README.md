@@ -10,3 +10,7 @@
 2.[哔哩哔哩助手](https://github.com/zacyu/bilibili-helper)<br />
 3.[Bilibili Cover](https://greasyfork.org/zh-CN/scripts/21453-bilibili-cover)<br />
 4.[缺Ｂ乐](https://greasyfork.org/zh-CN/scripts/13448-%E7%BC%BA%EF%BC%A2%E4%B9%90)<br />
+5.[百度Baidu网盘HTTP转HTTPS](https://greasyfork.org/zh-CN/scripts/18972-%E7%99%BE%E5%BA%A6baidu%E7%BD%91%E7%9B%98http%E8%BD%AChttps)<br />
+6.[百度盘直接下载](https://greasyfork.org/zh-CN/scripts/13638-%E7%99%BE%E5%BA%A6%E7%9B%98%E7%9B%B4%E6%8E%A5%E4%B8%8B%E8%BD%BD)<br />
+
+拾人牙慧, 搬砖于此，哈哈哈哈哈哈。
