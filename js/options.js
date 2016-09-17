@@ -3,6 +3,8 @@ var btnBilibiliBangumiDownload = document.getElementsByClassName('bilibiliBangum
 var btnBilibiliCover = document.getElementsByClassName('bilibiliCover');
 var btnAcfunVideoDownload = document.getElementsByClassName('acfunVideoDownload');
 var btnAcfunQueBLe = document.getElementsByClassName('acfunQueBLe');
+var btnBaiduNetDiscUrlReplaceToHttps = document.getElementsByClassName('baiduNetDiscUrlReplaceToHttps');
+var btnBaiduNetDiscDownloadDirectly = document.getElementsByClassName('baiduNetDiscDownloadDirectly');
 var bkg_page   = chrome.extension.getBackgroundPage();
 
 //打开设置页面，显示选项
@@ -35,6 +37,18 @@ if(localStorage.acfunQueBLe == 'on'){
     addClass(btnAcfunQueBLe[0],"on");
 }else{
     addClass(btnAcfunQueBLe[1],"on");
+}
+//把ACFUN替换成缺B乐
+if(localStorage.baiduNetDiscUrlReplaceToHttps == 'on'){
+    addClass(btnBaiduNetDiscUrlReplaceToHttps[0],"on");
+}else{
+    addClass(btnBaiduNetDiscUrlReplaceToHttps[1],"on");
+}
+//把ACFUN替换成缺B乐
+if(localStorage.baiduNetDiscDownloadDirectly == 'on'){
+    addClass(btnBaiduNetDiscDownloadDirectly[0],"on");
+}else{
+    addClass(btnBaiduNetDiscDownloadDirectly[1],"on");
 }
 
 //点击按钮事件
