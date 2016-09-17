@@ -1,7 +1,7 @@
 # Convenient-Helper
 一个简单的便捷助手
 -----------------------------------  
-![image](https://github.com/maizhenying09/Convenient-Helper/blob/master/HELLO.png)
+![image](https://raw.githubusercontent.com/maizhenying09/Convenient-Helper/master/HELLO.png)
 
 这是我第一次写Chrome的扩展0.0
 
