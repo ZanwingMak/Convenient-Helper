@@ -1,16 +1,16 @@
 # Convenient-Helper
-Ò»¸ö¼òµ¥µÄ±ã½İÖúÊÖ
+ä¸€ä¸ªç®€å•çš„ä¾¿æ·åŠ©æ‰‹
 -----------------------------------  
 ![image](https://raw.githubusercontent.com/maizhenying09/Convenient-Helper/master/HELLO.png)
 
-ÕâÊÇÎÒµÚÒ»´ÎĞ´ChromeµÄÀ©Õ¹0.0
+è¿™æ˜¯æˆ‘ç¬¬ä¸€æ¬¡å†™Chromeçš„æ‰©å±•0.0
 
-### ¸ĞĞ»
-1.[ÀÏË¾»úµÄ¹¤¾ßÏä](https://chrome.google.com/webstore/detail/%E8%80%81%E5%8F%B8%E6%9C%BA%E7%9A%84%E5%B7%A5%E5%85%B7%E7%AE%B1/fpiljkfgljdkhlgogfbanafflmibdloc)<br />
-2.[ßÙÁ¨ßÙÁ¨ÖúÊÖ](https://github.com/zacyu/bilibili-helper)<br />
+### æ„Ÿè°¢
+1.[è€å¸æœºçš„å·¥å…·ç®±](https://chrome.google.com/webstore/detail/%E8%80%81%E5%8F%B8%E6%9C%BA%E7%9A%84%E5%B7%A5%E5%85%B7%E7%AE%B1/fpiljkfgljdkhlgogfbanafflmibdloc)<br />
+2.[å“”å“©å“”å“©åŠ©æ‰‹](https://github.com/zacyu/bilibili-helper)<br />
 3.[Bilibili Cover](https://greasyfork.org/zh-CN/scripts/21453-bilibili-cover)<br />
-4.[È±£ÂÀÖ](https://greasyfork.org/zh-CN/scripts/13448-%E7%BC%BA%EF%BC%A2%E4%B9%90)<br />
-5.[°Ù¶ÈBaiduÍøÅÌHTTP×ªHTTPS](https://greasyfork.org/zh-CN/scripts/18972-%E7%99%BE%E5%BA%A6baidu%E7%BD%91%E7%9B%98http%E8%BD%AChttps)<br />
-6.[°Ù¶ÈÅÌÖ±½ÓÏÂÔØ](https://greasyfork.org/zh-CN/scripts/13638-%E7%99%BE%E5%BA%A6%E7%9B%98%E7%9B%B4%E6%8E%A5%E4%B8%8B%E8%BD%BD)<br />
+4.[ç¼ºï¼¢ä¹](https://greasyfork.org/zh-CN/scripts/13448-%E7%BC%BA%EF%BC%A2%E4%B9%90)<br />
+5.[ç™¾åº¦Baiduç½‘ç›˜HTTPè½¬HTTPS](https://greasyfork.org/zh-CN/scripts/18972-%E7%99%BE%E5%BA%A6baidu%E7%BD%91%E7%9B%98http%E8%BD%AChttps)<br />
+6.[ç™¾åº¦ç›˜ç›´æ¥ä¸‹è½½](https://greasyfork.org/zh-CN/scripts/13638-%E7%99%BE%E5%BA%A6%E7%9B%98%E7%9B%B4%E6%8E%A5%E4%B8%8B%E8%BD%BD)<br />
 
-Ê°ÈËÑÀ»Û, °á×©ÓÚ´Ë£¬¹ş¹ş¹ş¹ş¹ş¹ş£¬²»¹ıÑ§µ½ÁËÍ¦¶à¶«Î÷°¡¡£
+æ‹¾äººç‰™æ…§ï¼Œæ¬ç –äºæ­¤ï¼Œå“ˆå“ˆå“ˆå“ˆå“ˆå“ˆï¼Œä¸è¿‡å­¦åˆ°äº†æŒºå¤šä¸œè¥¿å•Šã€‚
