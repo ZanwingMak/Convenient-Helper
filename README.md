@@ -1,5 +1,5 @@
 # Convenient-Helper
-一个简单的便捷助手
+的便捷助手
 -----------------------------------  
 ![image](https://raw.githubusercontent.com/maizhenying09/Convenient-Helper/master/HELLO.png)
 
